@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Products | Aaramba by Maya</title>
+  <link rel="stylesheet" href="all-products.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="all-products">
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <nav class="navbar">
+  <div class="nav-left">
+    <a href="home-page.html" class="nav-link">Home</a>
+
+    <div class="dropdown">
+    <button class="dropdown-toggle">
+      Shop by category ▾
+    </button>
+
+      <div class="dropdown-menu">
+        <a href="#">Necklaces</a>
+        <a href="#">Earrings</a>
+        <a href="#">jewel set</a>
+        <a href="#">mala</a>
+        <a href="all-products.html">All Products</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="logo">Aaramba</div>
+
+  <div class="nav-right">
+    <span>🔍</span>
+    <span>♡</span>
+    <span>🛍</span>
+    <span>👤</span>
+  </div>
+</header>
+
+<!-- PAGE TITLE -->
+<section class="page-title">
+  <h1>jewel-set</h1>
+</section>
+
+<!-- PRODUCTS GRID -->
+<section class="products-container">
+
+  <div class="product-card">
+    <div class="product-img">
+      <img src="jwel-set.png" alt="Amara Bracelet">
+      <span class="arrow-btn">↗</span>
+    </div>
+    <div class="product-info">
+      <p class="name">Amara Bracelet</p>
+      <p class="price">₹2,790</p>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-img white-bg">
+      <img src="necklace.png" alt="Astra Hola Necklace">
+      <span class="arrow-btn">↗</span>
+    </div>
+    <div class="product-info">
+      <p class="name">Astra Hola Necklace</p>
+      <p class="price">₹2,790</p>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-img white-bg">
+      <img src="necklace.png" alt="Celestia Stone Necklace">
+      <span class="arrow-btn">↗</span>
+    </div>
+    <div class="product-info">
+      <p class="name">Celestia Stone Necklace</p>
+      <p class="price">₹2,790</p>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-img white-bg">
+      <img src="jwel-set.png" alt="Celin Drop Earrings">
+        <span class="arrow-btn">↗</span>
+    </div>
+    <div class="product-info">
+      <p class="name">Celin Drop Earrings</p>
+      <p class="price">₹2,890</p>
+    </div>
+  </div>
+
+</section>
+
+<footer class="footer">
+  <div class="footer-overlay">
+
+    <div class="footer-left">
+      <h2 class="logo">AARAMBA BY MAYA</h2>
+      <h3>Be the First to Know</h3>
+      <p>
+        Sign up for our newsletter and get the latest updates on our
+        minimalist jewelry collections, exclusive offers, and the story
+        behind each piece.
+      </p>
+
+      <div class="newsletter">
+        <input type="email" placeholder="Email">
+        <button>↗</button>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <h4>explore</h4>
+      <a href="home-page.html">Home</a>
+      <a href="all-products.html">All Products</a>
+      <a href="wishlist.html">Wishlist</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+    </div>
+
+    <div class="footer-links">
+      <h4>policies</h4>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Shipping Policy</a>
+      <a href="#">Return and Refund policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Copyright © 2026 emoy. All rights reserved.</p>
+
+    <div class="socials">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-pinterest"></i>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const dropdown = document.querySelector('.dropdown');
+  const toggle = document.querySelector('.dropdown-toggle');
+
+  toggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    dropdown.classList.toggle('active');
+  });
+
+  document.addEventListener('click', () => {
+    dropdown.classList.remove('active');
+  });
+</script>
+
+<a href="https://wa.me/919686934118" class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M16.004 0C7.165 0 0 7.164 0 16c0 2.825.734 5.482 2.019 7.812L.042 32l8.343-2.205A15.93 15.93 0 0016.004 32C24.84 32 32 24.837 32 16S24.84 0 16.004 0zm0 29.333a13.26 13.26 0 01-6.743-1.833l-.482-.286-4.989 1.32 1.334-4.864-.314-.5A13.197 13.197 0 012.667 16c0-7.363 5.97-13.333 13.337-13.333S29.337 8.637 29.337 16s-5.97 13.333-13.333 13.333zm7.27-9.97c-.396-.2-2.344-1.156-2.704-1.288-.36-.13-.623-.2-.885.2-.263.396-1.023 1.288-1.257 1.553-.23.264-.465.298-.862.099-.396-.2-1.672-.617-3.189-1.964-1.177-1.048-1.972-2.342-2.2-2.737-.23-.397-.025-.612.173-.808.178-.178.396-.465.594-.698.198-.23.264-.396.396-.662.132-.265.066-.497-.033-.698-.099-.198-.885-2.131-1.214-2.918-.32-.762-.645-.658-.885-.67-.228-.01-.497-.015-.765-.015s-.696.1-1.06.497c-.364.396-1.39 1.357-1.39 3.312 0 1.955 1.424 3.842 1.623 4.111.198.264 2.804 4.283 6.798 5.969.948.403 1.69.646 2.27.827.955.298 1.824.256 2.506.156.766-.117 2.344-.958 2.672-1.882.329-.923.329-1.713.228-1.883-.1-.165-.364-.264-.76-.463z"/>
+  </svg>
+  <span class="whatsapp-float-text">Let's chat</span>
+</a>
+
+</body>
+</html>
